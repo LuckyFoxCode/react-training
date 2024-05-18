@@ -7,7 +7,7 @@ function App() {
       <Header />
       <main className='flex'>
         <Aside />
-        <Content>
+        <Content className='w-full flex justify-center items-center'>
           <AppRouters />
         </Content>
       </main>
