@@ -1,7 +1,11 @@
+import { AppRouters } from 'utils/routers';
+
 function App() {
   return (
     <>
-      <h1>My components</h1>
+      <main>
+        <AppRouters />
+      </main>
     </>
   );
 }
