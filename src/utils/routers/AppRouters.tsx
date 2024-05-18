@@ -1,4 +1,5 @@
 import { Challenge_01, Challenge_02, Challenge_03 } from 'components/layout';
+import { Home } from 'pages/Home';
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 
 export const AppRouters = () => {
@@ -7,7 +8,7 @@ export const AppRouters = () => {
       <Routes>
         <Route
           path='/'
-          element={<h1>My components</h1>}
+          element={<Home />}
         />
         <Route
           path='/challenge01'
