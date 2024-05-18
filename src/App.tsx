@@ -1,5 +1,9 @@
 function App() {
-  return <h1 className='text-neutral-50'>My application</h1>;
+  return (
+    <>
+      <h1>My components</h1>
+    </>
+  );
 }
 
 export default App;
