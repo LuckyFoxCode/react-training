@@ -4,6 +4,7 @@ import {
   Challenge_03,
   Challenge_04,
   Challenge_05,
+  Challenge_06,
   Home,
 } from 'pages';
 import { Route, Routes } from 'react-router-dom';
@@ -34,6 +35,10 @@ export const AppRouters = () => {
       <Route
         path='/challenge-05'
         element={<Challenge_05 />}
+      />
+      <Route
+        path='/challenge-06'
+        element={<Challenge_06 />}
       />
     </Routes>
   );
