@@ -5,10 +5,11 @@ import { Box } from './Box';
 interface InputProps {
   value: string;
   onChange: (e: ChangeEvent<HTMLInputElement>) => void;
-  type?: 'text';
+  name?: string;
   label?: string;
   className?: string;
   placeholder?: string;
+  type?: 'text' | 'email' | 'password';
 }
 
 interface FieldsetProps {
@@ -24,6 +25,7 @@ export const Input: FC<InputProps> = ({
   className,
   type = 'text',
   placeholder,
+  name,
 }) => {
   return (
     <Box className='flex flex-col'>
@@ -33,6 +35,7 @@ export const Input: FC<InputProps> = ({
         </label>
       )}
       <input
+        name={name}
         type={type}
         value={value}
         onChange={onChange}

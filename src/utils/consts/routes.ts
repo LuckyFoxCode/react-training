@@ -17,4 +17,8 @@ export const routes: RouteProp[] = [
     path: '/challenge-04',
     description: 'Challenge 04',
   },
+  {
+    path: '/challenge-05',
+    description: 'Challenge 05',
+  },
 ];
