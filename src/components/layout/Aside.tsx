@@ -22,7 +22,12 @@ export const Aside = () => {
                 )
               }
             >
-              {route.description}
+              <span className='font-medium text-teal-500 mr-1'>
+                {route.id}.
+              </span>
+              {route.description.length > 26
+                ? `${route.description.slice(0, 24)}...`
+                : route.description}
             </NavLink>
           </li>
         ))}
