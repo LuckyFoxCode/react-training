@@ -5,9 +5,9 @@ function App() {
   return (
     <>
       <Header />
-      <main className='flex'>
+      <main className='relative flex'>
         <Aside />
-        <Content className='w-full flex justify-center items-center'>
+        <Content className='w-full flex justify-center pl-[60px] my-auto'>
           <AppRouters />
         </Content>
       </main>
