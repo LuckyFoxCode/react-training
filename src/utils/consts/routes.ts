@@ -31,4 +31,9 @@ export const routes: RouteProp[] = [
     path: '/challenge-06',
     description: 'Timer',
   },
+  {
+    id: '07',
+    path: '/challenge-07',
+    description: 'Todo List',
+  },
 ];

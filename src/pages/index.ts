@@ -4,4 +4,5 @@ export * from './Challenge-03';
 export * from './Challenge-04';
 export * from './Challenge-05';
 export * from './Challenge-06';
+export * from './Challenge-07';
 export * from './Home';
