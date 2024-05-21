@@ -12,7 +12,7 @@ export const Aside = () => {
   return (
     <aside
       className={cn(
-        isOpen ? 'min-w-[250px]' : 'w-fit',
+        isOpen ? 'min-w-[250px] shadow-xl shadow-pink-500 ' : 'w-fit',
         'fixed t-0 l-0 h-full flex flex-col p-2 bg-slate-400 transition-all',
       )}
     >
