@@ -1,4 +1,4 @@
-import { Box, Button } from 'components/common';
+import { Box, Button, ChallengeTask } from 'components/common';
 import { useState } from 'react';
 
 export const Challenge_08 = () => {
@@ -13,6 +13,13 @@ export const Challenge_08 = () => {
       task
       className='w-full max-w-[400px]'
     >
+      <ChallengeTask
+        className='mb-3'
+        task={'Задача 8: Управление состоянием модального окна'}
+        description={
+          'Создай компонент, который управляет состоянием модального окна.'
+        }
+      />
       <Button
         onClick={isShowModal}
         className='mb-3'
