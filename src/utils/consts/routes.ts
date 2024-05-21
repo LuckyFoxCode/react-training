@@ -46,4 +46,9 @@ export const routes: RouteProp[] = [
     path: '/challenge-09',
     description: 'Filter list',
   },
+  {
+    id: '10',
+    path: '/challenge-10',
+    description: 'UserDetail card API',
+  },
 ];

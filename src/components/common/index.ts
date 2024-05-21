@@ -6,3 +6,4 @@ export * from './CustomList';
 export * from './FilterList';
 export * from './Input';
 export * from './Timer';
+export * from './UserDetail';
